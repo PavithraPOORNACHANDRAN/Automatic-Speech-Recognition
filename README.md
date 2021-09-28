@@ -13,5 +13,3 @@ To achieve this, we performed re-scoring the ASR N-best hypothesis list with the
 hypotheses with improved semantic consistency and thus lower Word Error Rate. We used the publicly accessible TED-LIUM corpus to predict semantic scores in the hopes of enhancing the ASR system. In this approach, we employed a transformer extension called BERT, and Universal Sentence Encoder for continuous
 representation of sentence embedding plays a major role.
 
-The goal of our DNN re-scoring models is to find hypotheses with improved semantic consistency and thus lower Word Error Rate. We evaluated our methodology on the corpus of TED-LIUM conferences with noise of SNR 10 dB. The proposed model
-gives a significant WER by using past information as compared to without using  past information. The best Word Error Rate of BERTpast re-scoring models is 13. As compared to previous work in this same task, our proposed model improvements are statistically significant.
